@@ -1,0 +1,28 @@
+{
+    "build": {
+        "core"       : "arduino",
+        "extra_flags": "-DARDUINO_AVR_JADE_UNOPLUS",
+        "f_cpu"      : "16000000L",
+        "mcu"        : "atmega328pb",
+        "variant"    : "jade-unoplus"
+    },
+    "bootloader": {
+        "file"       : "optiboot/optiboot_atmega328pb_16mhz.hex",
+        "lfuse"      : "0xFF",
+        "hfuse"      : "0xDE",
+        "efuse"      : "0xF4",
+        "lock_bits"  : "0xCF",
+        "unlock_bits": "0xFF"
+    },
+    "frameworks": [ "arduino" ],
+    "name": "GroundStudio Jade Uno+",
+    "upload": {
+        "maximum_ram_size"   : 2048,
+        "maximum_size"       : 32256,
+        "protocol"           : "arduino",
+        "require_upload_port": true,
+        "speed"              : 115200
+    },
+    "url": "https://ardushop.ro/en/development-boards/1372-groundstudio-jade-u1-6427854020000.html",
+    "vendor": "GroundStudio"
+}
