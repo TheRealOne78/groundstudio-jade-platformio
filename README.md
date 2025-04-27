@@ -1,7 +1,7 @@
 # PlatformIO profiles for GroundStudio's Jade development boards
 
 > [!CAUTION]
-> The GroundStudio Jade Pro Micro is still untested, and using it may cause unexpected issues.
+> The GroundStudio Jade Pro Micro profile is still untested, and using it may cause unexpected issues.
 > Proceed with caution!
 
 ## Description
