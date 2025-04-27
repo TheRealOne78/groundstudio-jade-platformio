@@ -10,8 +10,8 @@ This repository provides support for GroundStudio's Jade dev boards, enabling ea
 ## Setup Tutorial
 ### Unix-based systems (GNU/Linux | macOS | BSD | etc)
 
-1. Ensure PlatformIO is installed
-   If you don't have PlatformIO installed, follow the instructions here: [https://platformio.org/install](https://platformio.org/install).
+1. Ensure PlatformIO (Core) is installed
+   If you don't have `platformio` installed, follow the instructions here: [https://platformio.org/install](https://platformio.org/install).
 2. Clone the repo:
     ```sh
     git clone https://github.com/TheRealOne78/groundstudio-jade-platformio.git --recursive
