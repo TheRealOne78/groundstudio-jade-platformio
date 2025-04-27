@@ -6,8 +6,8 @@
 
 ## Description
 This repository provides support for GroundStudio's Jade development boards, enabling easy integration with PlatformIO for development. The repo includes the configuration files necessary for PlatformIO to recognize and work with the following boards:
-- Jade Nano+
-- Jade Uno+
+- Jade Nano+ [N1+]
+- Jade Uno+ [U1+]
 - Jade Pro Micro (**UNTESTED**)
 
 As of the time of writing (April 27th 2025), all other GroundStudio Jade development boards are fully compatible with their original counterparts, so creating separate profiles for them is unnecessary — you can simply use the profiles of the original boards.
