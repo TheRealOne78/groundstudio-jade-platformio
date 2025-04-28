@@ -64,13 +64,13 @@ log_err_exec() {
 }
 
 # Make sure that PlatformIO exists and it's executable
-if [ ! -x "$(command -v pio)" ] || [ ! -x "$(command -v platformio)" ]; then
+if [ ! -x "$(command -v pio)" ] && [ ! -x "$(command -v platformio)" ]; then
         log_err "PlatformIO cannot be found, please make sure that it is installed on this system."
         exit 1
 fi
 
 # Check if paths exist, else init a new tmp project to install deps
-if [ ! -d "${BOARDS_PATH}" ] && [ ! -d "${VARIANTS_PATH}" ] && [ ! -d "${CATERINA_PATH}" ]; then
+if [ ! -d "${BOARDS_PATH}" ] || [ ! -d "${VARIANTS_PATH}" ] || [ ! -d "${CATERINA_PATH}" ]; then
     log_info "Couldn't find the necessary directories, initializing a temporary PlatformIO project to install the necessary packages ..."
     pwddir=$(pwd)
     tmpdir=$(mktemp -d)
