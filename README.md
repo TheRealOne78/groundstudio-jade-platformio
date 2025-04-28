@@ -15,17 +15,18 @@ As of the time of writing (April 27th 2025), all other GroundStudio Jade develop
 ## Setup Tutorial
 ### Unix-based systems (GNU/Linux | macOS | BSD | etc)
 
-1. Ensure PlatformIO (Core) is installed
+1. Ensure PlatformIO (Core) is installed.
+
    If you don't have `platformio` installed, follow the instructions here: [https://platformio.org/install](https://platformio.org/install).
-2. Clone the repo:
+3. Clone the repo:
     ```sh
     git clone https://github.com/TheRealOne78/groundstudio-jade-platformio.git --recursive
     ```
-3. Navigate to the cloned directory:
+4. Navigate to the cloned directory:
     ```sh
     cd groundstudio-jade-platformio
     ```
-4. Run the setup script to configure everything:
+5. Run the setup script to configure everything:
     ```sh
     ./setup.sh
     ```
